@@ -1,5 +1,6 @@
 body {
     padding: 50px;
+    overflow: hidden;
 }
 
 .top-div {
@@ -27,10 +28,12 @@ p {
 
 h1 {
     color: hsl(300, 43%, 22%);
+    font-size: 48px;
 }
 
 .title {
     color: hsl(303, 10%, 53%);
+    margin-bottom: 50px;
 }
 
 h4 {
@@ -111,4 +114,15 @@ h4 {
 
 .names {
     margin-left: 20px;
+}
+
+.img-top {
+    position: absolute;
+    top: -50px;
+}
+
+.img-bottom {
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
 }
